@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<head>
+  <title>work from home or from the office</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1 id="title">Do you prefer working from home or at the office?</h1>
+  <p id="description">
+    In our research we would like to measure how many people prefer working from
+    home or in person at the office. The survey does not take more than 2
+    minutes! Thank you for Your help!
+  </p>
+  <form id="survey-form">
+    <label id="name-label" class="label">Name</label>
+    <input id="name" type="text" placeholder="John Smith" required />
+    <label id="email-label" class="label">Email</label>
+    <input
+      id="email"
+      type="email"
+      placeholder="your.email@email.com"
+      required
+    />
+    <label id="number-label" class="label">Age</label>
+    <input
+      id="number"
+      type="number"
+      min="12"
+      max="120"
+      value="number"
+      placeholder="47"
+    />
+    <label class="label"
+      >Do you prefer working from home or at the office?</label
+    >
+    <select id="dropdown">
+      <option id="option-1">Home</option>
+      <option id="option-2">Office</option>
+    </select>
+    <label class="label">Do you work remotely?</label>
+    <label>
+      <input type="radio" name="option" value="yes" /><label class="label-color"
+        >Yes</label
+      ></label
+    >
+    <label>
+      <input type="radio" name="option" value="no" /><label class="label-color"
+        >No</label
+      ></label
+    >
+    <label>
+      <input type="radio" name="option" value="hybrid" /><label
+        class="label-color"
+        >Hybrid</label
+      ></label
+    >
+    <label id="choose-label" class="label"
+      >What do you value at your current company?</label
+    >
+    <label class="label-color">
+      <input type="checkbox" value="1" />Work environment</label
+    >
+    <label class="label-color">
+      <input type="checkbox" value="2" />Co-workers</label
+    >
+    <label class="label-color">
+      <input type="checkbox" value="3" />Managment</label
+    >
+    <label class="label-color">
+      <input type="checkbox" value="4" />Work-life balance</label
+    >
+    <label class="label-color">
+      <input type="checkbox" value="5" />Lunch breaks</label
+    >
+    <label class="label-color">
+      <input type="checkbox" value="6" />Flexible working hours</label
+    >
+    <label class="label-color">
+      <input type="checkbox" value="7" />Desk set up</label
+    >
+    <label class="label-color">
+      <input type="checkbox" value="8" />Transparency</label
+    >
+    <label class="label-color">
+      <input type="checkbox" value="9" />Inclusivity</label
+    >
+    <label class="label">Feel free to share your comments</label>
+    <textarea placeholder="Your comments or concernts..."></textarea>
+    <button type="submit" id="submit">Submit</button>
+  </form>
+</body>

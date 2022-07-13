@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Nunito", sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #f6c8ae;
+  color: #a0bebc;
+  font-size: 18px;
+  margin: 0;
+}
+
+h1 {
+  margin: 1em auto;
+  text-align: center;
+  color: #cf495c;
+}
+
+p {
+  margin: 0 auto;
+  padding: 0.5rem 0;
+  text-align: center;
+  width: 85vw;
+  color: #192230;
+  /* font-weight: bold; */
+  font-style: italic;
+}
+
+form {
+  width: 85vw;
+  max-width: 1200px;
+  min-width: 300px;
+  margin: 2.5rem auto;
+  padding: 2em;
+  background-color: RGBA(25, 34, 48, 60);
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 1px 0 10px #6e85a7;
+  font-size: 18px;
+}
+
+label {
+  padding: 0.5rem 0;
+}
+
+.label {
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+input,
+select {
+  border: none;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border-radius: 0.3rem;
+}
+
+select {
+  background-color: #f6c8ae;
+  border: none;
+  font-size: 14px;
+  color: #192230;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 0.5rem;
+  margin-top: 0.3rem;
+}
+
+.label-color {
+  color: #fff;
+}
+
+textarea {
+  border: none;
+  padding: 0.8rem;
+  border-radius: 0.3rem;
+}
+
+button {
+  border: none;
+  border-radius: 2rem;
+  padding: 0.8rem;
+  font-size: 18px;
+  color: #fff;
+  margin-top: 2rem;
+  background-color: #ff657e;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #cf495c;
+  box-shadow: inset 0 0 0 2px #fff;
+  transition: all 0.4s ease-in-out;
+}
